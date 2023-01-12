@@ -1,0 +1,44 @@
+.App {
+ 
+}
+
+a:visited {
+    color: gray;
+}
+
+.Required {
+    color: red;
+}
+
+.Question{
+    margin-bottom: 1rem;
+}
+
+.Question input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: .5rem;
+}
+
+.Navigation {
+    display: flex;
+    flex-direction: row;
+}
+
+button{
+    width: 100%;
+    padding: .5rem;
+}
+
+.NavigationButtonHome {
+    width: 25%;
+}
+
+.NavigationButtonNext, .NavigationButtonPrevious, .NavigationButtonSubmit {
+    margin-left: .5rem;
+}
+
+a.SelectedChoice{
+    color: white;
+    font-weight: bold;
+}
